@@ -6,7 +6,7 @@ Each skill is a folder with a `SKILL.md` and optional `references/`, `scripts/`,
 
 ## Skills in this repo
 
-- [**cialdini-audit**](./cialdini-audit) — Audit a website, landing page, email, or ad through Cialdini's seven principles of influence. Classifies each persuasion tactic as Detective (ethical), Smuggler (misleading), or Commissioner (fabricated), and produces a structured report with prioritized recommendations.
+- [**critical-prompting**](./critical-prompting) — Turns Claude into a sharp sparring partner instead of a yes-man when the user asks for critique, review, or honest feedback on an idea, plan, essay, or decision. Applies self-attack, verification chains, thought trees, and pre-mortem frameworks to surface weak assumptions, counterarguments, and blind spots. (Skill content is in Dutch.)
 
 ## Installing a skill
 
