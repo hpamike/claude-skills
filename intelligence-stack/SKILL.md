@@ -1,0 +1,120 @@
+---
+name: intelligence-stack
+description: "Intelligence Stack (OODA-loop als organisatie) — denkmodel van Salim Ismail (ExO 3.0) dat een organisatie, functie of proces leest als één continu draaiende cyclus van PURPOSE → SENSE → INTERPRET → DECIDE → ORCHESTRATE/ACT → LEARN, met GOVERN/ASSURE als controlevlak. Kerngedachte van strateeg John Boyd — wie sneller door de cyclus draait dan zijn omgeving, wint. Gebruik deze skill wanneer de gebruiker wil begrijpen waarom een organisatie traag is, een operating model wil (her)ontwerpen, wil bepalen welke beslissingen een agent autonoom mag nemen en welke bij een mens horen, of een voordeel wil bouwen op snelheid en data. Triggert bij 'waarom zijn we zo traag', 'hoe richt ik dit proces in', 'wat kan AI of agents hier overnemen', 'operating model', 'hoe blijf ik de concurrent voor', 'hoe word ik AI-native', 'intelligence stack', 'OODA', 'waar zit onze moat'. NIET gebruiken voor pure feitenvragen, simpele uitvoeringstaken zonder organisatiecomponent, of wanneer de gebruiker expliciet een ander denkmodel vraagt."
+---
+
+# Intelligence Stack
+
+Lees een organisatie, afdeling of proces niet als een organogram (wie zit boven wie), maar als één **continu draaiende informatiecyclus**. De vraag is nooit "wie is de baas van wat", maar "hoe snel en hoe goed draait dit ding rond van signaal naar actie naar leren — en waar loopt het vast".
+
+## Waarom dit model bestaat
+
+Het komt van twee bronnen die je uit elkaar moet houden:
+
+- **John Boyd** (militair strateeg, 1927–1997) bedacht de **OODA-loop**: Observe → Orient → Decide → Act. Zijn empirische inzicht: in een gevecht wint niet de sterkste maar de snelste door de cyclus. Wie sneller waarneemt, oriënteert, beslist en handelt, dwingt de tegenstander te reageren op een beeld dat al achterhaald is. Dit deel is goed onderbouwd.
+- **Salim Ismail** (OpenExO) operationaliseert Boyd's loop als organisatie-architectuur in *The Organizational Singularity* (ExO 3.0, 2026): de **Intelligence Stack**. Dit deel is een consultancy-framework, geen bewezen wetenschap. Behandel het als een bruikbare lens en een hypothese — niet als een natuurwet. De hoofdletter-acroniemen (DRIVE, SHAPE, REWRITE) zijn marketing; de onderliggende vragen zijn het waardevolle.
+
+Gebruik het model dus om **scherpere vragen** te stellen, niet om de conclusie ("word AI-native, anders ga je dood") over te nemen.
+
+## De cyclus: zes lagen + één controlevlak
+
+Loop elke laag langs voor het ding dat je analyseert. Bij elke laag is de diagnostische vraag belangrijker dan de definitie.
+
+| Laag | Wat het doet | Diagnostische vraag |
+|------|--------------|---------------------|
+| **PURPOSE** | Missie, doel, constraints, prioriteiten — als toetssteen, niet als poster | Toetst elke beslissing zich echt hieraan, of hangt het doel los van het dagelijks werk? |
+| **SENSE** | Signalen uit klant, markt, operatie, omgeving binnenhalen | Welke signalen missen we, of zien we te laat? Op welk tempo? |
+| **INTERPRET** | Van ruwe signalen naar betekenis: patronen, context, scenario's | Maken we van data echt inzicht, of stapelen rapporten zich op zonder duiding? |
+| **DECIDE** | Opties genereren, afwegen, een keuze vastleggen | Hoe lang duurt een beslissing? Hoeveel goedkeuringslagen? Wat kan sneller? |
+| **ORCHESTRATE / ACT** | De keuze uitvoeren: mensen, systemen, agents coördineren | Lekt er waarde tussen besluit en uitvoering? Wie/wat voert echt uit? |
+| **LEARN** | Resultaat evalueren en terugvoeren in het systeem | Wordt er structureel geleerd, of herhalen we dezelfde fouten? |
+
+**GOVERN / ASSURE** loopt dwars door alle zes: kwaliteit, compliance, logging, menselijk toezicht, en de "noodrem" (escalatie/terugdraaien). De vraag: *waar kan dit ontsporen, en wie of wat vangt dat op?*
+
+De cyclustijd is de kernmetriek. Een traditionele organisatie draait de loop op kwartaal- of jaartempo (kwartaalrapportages, MT-besluiten, jaarevaluaties). Het hele punt van het model: verkort de cyclustijd waar dat verantwoord kan.
+
+## Hoe je het toepast
+
+### Stap 1 — Bepaal het object
+Wat draait de loop? Een heel bedrijf, één afdeling, één proces (bv. "hoe wij ons aanbod actueel houden"), of een persoonlijke werkwijze. Hou het concreet — vaag object levert vage analyse.
+
+### Stap 2 — Loop de zes lagen + GOVERN langs
+Beantwoord per laag de diagnostische vraag. Wees eerlijk over waar je het niet weet — een lege laag is zelf een bevinding (vaak is LEARN of SENSE de zwakste).
+
+### Stap 3 — Vind de bottleneck
+Eén laag is meestal de rem op het geheel. Veelvoorkomend: DECIDE (te veel goedkeuringslagen) of LEARN (geen feedback loop). Daar zit de meeste winst.
+
+### Stap 4 — Trek de mens-vs-agent-grens (het scherpste deel van het model)
+Niet "wat kan AI overnemen", maar: welke beslissingen zijn **omkeerbaar** en welke niet?
+
+- **Two-way doors** (omkeerbaar, laag risico, testbaar, terug te draaien) → kandidaten voor automatisering / autonome agents binnen een vooraf afgesproken speelruimte ("permission envelope"). Voorbeeld: een tekst bijwerken, een routine-herinnering sturen.
+- **One-way doors** (onomkeerbaar, raakt geld, recht, mensen, merk of relaties) → mens beslist, altijd. Voorbeeld: prijswijziging, iemand aannemen, een partnerschap aangaan.
+
+Deze tweedeling (van Jeff Bezos) is de praktisch bruikbaarste exportwaar van het hele framework.
+
+### Stap 5 — Zoek het vliegwiel (de moat)
+Welke laag wordt **beter naarmate je hem vaker draait**? Meestal: data uit LEARN die SENSE en INTERPRET scherper maakt. Een echt vliegwiel is een verdedigbaar voordeel; maar (zie kritische checks) het is pas een moat bij voldoende volume, en data kan snel verouderen.
+
+### Stap 6 — Check GOVERN
+Voor elke laag die je wilt versnellen of automatiseren: wat is het faalpad, en wat is de terugval? Snelheid zonder noodrem is roekeloosheid, geen voordeel.
+
+## Vier kritische checks (gebruik deze altijd — anders word je de marketing in gepraat)
+
+Het model heeft een ingebouwde bias naar "sneller = beter". Toets dat steeds:
+
+1. **Sneller ≠ beter.** Boyd's loop gaat over een tegenstander die op jóu reageert. In veel contexten (een leerling, een patiënt, een tevreden klant) reageert "de omgeving" helemaal niet op jouw tempo, en is dagelijks bijwerken juist ruis. Vraag: levert kortere cyclustijd hier echt waarde, of alleen drukte?
+2. **De moat is meestal voorwaardelijk, niet actueel.** Een data-vliegwiel werkt pas bij schaal en veroudert als het onderwerp snel verandert. Benoem de voorwaarde ("wordt een moat bij N gebruikers") in plaats van het als bestaand feit te claimen.
+3. **Automatiseren botst vaak met de belofte.** Als de waarde van het ding juist het menselijke is (oordeel, relatie, vertrouwen), dan ondergraaft "schaalbaar zonder mensen" het product. Benoem die spanning expliciet; kies niet stilzwijgend.
+4. **Attribueer en relativeer.** Dit is één guru-framework. De OODA-kern is sterk; de ExO-overbouw is een hypothese. Scheid in je advies wat je weet van wat het framework beweert.
+
+## Outputstructuur
+
+Gebruik standaard deze opzet (pas aan waar zinnig):
+
+```
+# Intelligence Stack-analyse: [object]
+
+## De loop in het kort
+Eén alinea: hoe draait de cyclus nu, op welk tempo, en wat is de kern-bottleneck.
+
+## Per laag
+PURPOSE / SENSE / INTERPRET / DECIDE / ORCHESTRATE / LEARN — per laag:
+sterk / zwak / blinde vlek, met de diagnostische bevinding.
+
+## GOVERN/ASSURE
+Faalpaden en terugval.
+
+## De bottleneck
+De ene laag die het geheel remt + waarom.
+
+## Mens vs. agent
+Two-way doors (kandidaat voor automatisering) vs. one-way doors (mens beslist),
+als korte tabel.
+
+## Het vliegwiel
+Wat wordt beter naarmate het vaker draait — en onder welke voorwaarde dat een
+echte moat is.
+
+## Kritische kanttekeningen
+De vier checks toegepast op dit geval. Waar slaat het model hier mis of overdrijft het?
+
+## Wat ik zou veranderen
+Concrete, uitvoerbare ingrepen op de bottleneck.
+```
+
+## Voorbeeld (verkort)
+
+**Object:** hoe een opleider zijn cursusaanbod actueel houdt.
+
+- **SENSE** (zwak): nieuwe tools worden pas opgemerkt als een deelnemer ernaar vraagt → signaal komt te laat binnen.
+- **DECIDE** (bottleneck): elke contentwijziging wacht op het kwartaaloverleg. Cyclustijd: 3 maanden.
+- **Mens vs. agent:** een prompt bijwerken of een tool aan de lijst toevoegen is een two-way door (testbaar, terug te draaien) → kan naar een agent met review. Een module schrappen is een one-way door (raakt de merkbelofte) → blijft bij een mens.
+- **Vliegwiel:** afhaakdata per module → betere content → minder afhakers. Echte moat? Pas bij genoeg deelnemers, en de tool-data veroudert snel — dus voorwaardelijk.
+- **Kritische check:** dagelijks de content bijwerken klinkt als voordeel, maar voor een lerende kan constante verandering juist verwarrend zijn (check 1). Wekelijks is waarschijnlijk genoeg.
+- **Ingreep:** haal routine-contentupdates uit het kwartaaloverleg (verkort DECIDE van 3 maanden naar dagen voor two-way doors); hou alleen structurele keuzes in het overleg.
+
+## Wat deze skill niet doet
+
+- Geen kritiekloze overname van de "word AI-native of sterf"-conclusie. Het model is een diagnoselens, geen voorspelling.
+- Geen organisatieadvies op terreinen waar snelheid niet de relevante as is (veiligheid, zorgvuldigheid, vertrouwen) zonder dat expliciet te benoemen.
+- Geen vervanging voor echte cijfers. De analyse wijst aan wáár te kijken; de gebruiker levert de feiten over de eigen situatie.
