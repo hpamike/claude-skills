@@ -1,9 +1,11 @@
 ---
-name: intelligence-stack
-description: "Intelligence Stack (OODA-loop als organisatie) — denkmodel van Salim Ismail (ExO 3.0) dat een organisatie, functie of proces leest als één continu draaiende cyclus van PURPOSE → SENSE → INTERPRET → DECIDE → ORCHESTRATE/ACT → LEARN, met GOVERN/ASSURE als controlevlak. Kerngedachte van strateeg John Boyd — wie sneller door de cyclus draait dan zijn omgeving, wint. Gebruik deze skill wanneer de gebruiker wil begrijpen waarom een organisatie traag is, een operating model wil (her)ontwerpen, wil bepalen welke beslissingen een agent autonoom mag nemen en welke bij een mens horen, of een voordeel wil bouwen op snelheid en data. Triggert bij 'waarom zijn we zo traag', 'hoe richt ik dit proces in', 'wat kan AI of agents hier overnemen', 'operating model', 'hoe blijf ik de concurrent voor', 'hoe word ik AI-native', 'intelligence stack', 'OODA', 'waar zit onze moat'. NIET gebruiken voor pure feitenvragen, simpele uitvoeringstaken zonder organisatiecomponent, of wanneer de gebruiker expliciet een ander denkmodel vraagt."
+name: vector
+description: "V.E.C.T.O.R. (Vastly Enhanced Capability Through Organized Resources) — denkmodel dat een organisatie, functie of proces leest als één continu draaiende OODA-cyclus van PURPOSE → SENSE → INTERPRET → DECIDE → ORCHESTRATE/ACT → LEARN, met GOVERN/ASSURE als controlevlak. Naar Salim Ismails Intelligence Stack (ExO 3.0) en strateeg John Boyd — wie sneller door de cyclus draait dan zijn omgeving, wint. Gebruik deze skill wanneer de gebruiker wil begrijpen waarom een organisatie traag is, een operating model wil (her)ontwerpen, wil bepalen welke beslissingen een agent autonoom mag nemen en welke bij een mens horen, of een voordeel wil bouwen op snelheid en data. Triggert bij 'waarom zijn we zo traag', 'operating model', 'wat kan AI of agents hier overnemen', 'hoe word ik AI-native', 'intelligence stack', 'OODA', 'vector', 'waar zit onze moat'. NIET gebruiken voor pure feitenvragen, simpele uitvoeringstaken zonder organisatiecomponent, of wanneer de gebruiker expliciet een ander denkmodel vraagt."
 ---
 
-# Intelligence Stack
+# V.E.C.T.O.R.
+
+**Vastly Enhanced Capability Through Organized Resources** — een organisatie-diagnoselens op basis van de OODA-loop (John Boyd) en Salim Ismails Intelligence Stack (ExO 3.0).
 
 Lees een organisatie, afdeling of proces niet als een organogram (wie zit boven wie), maar als één **continu draaiende informatiecyclus**. De vraag is nooit "wie is de baas van wat", maar "hoe snel en hoe goed draait dit ding rond van signaal naar actie naar leren — en waar loopt het vast".
 
@@ -72,7 +74,7 @@ Het model heeft een ingebouwde bias naar "sneller = beter". Toets dat steeds:
 Gebruik standaard deze opzet (pas aan waar zinnig):
 
 ```
-# Intelligence Stack-analyse: [object]
+# V.E.C.T.O.R.-analyse: [object]
 
 ## De loop in het kort
 Eén alinea: hoe draait de cyclus nu, op welk tempo, en wat is de kern-bottleneck.
