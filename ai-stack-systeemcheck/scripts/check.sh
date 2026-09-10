@@ -2,6 +2,12 @@
 # Systeemcheck voor de sessies "je eigen AI-assistent" en "je intelligentie-stack".
 # Mac en Linux. Meet feiten en oordeelt met vuistregels; verzint geen leverancierseisen.
 # Gebruik: bash check.sh [1|2|all]
+#
+# LET OP: draait dit script in een Cowork-sandbox, dan meten de geheugen- en
+# schijfregels die sandbox en NIET de laptop van de deelnemer. Gebruik voor het
+# hardware-oordeel de officiele readiness-check:
+#   https://claude.ai/api/desktop/darwin/universal/cowork-readiness-check/latest/redirect
+# De netwerk- en schrijfrechtenchecks hieronder kloppen wel, waar ze ook draaien.
 set -u
 SESSIE="${SESSIE:-${1:-all}}"
 INSTALLER="https://raw.githubusercontent.com/hpamike/ai-stack-starter/main/START-HIER.md"

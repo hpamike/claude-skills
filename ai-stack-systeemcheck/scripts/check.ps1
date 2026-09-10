@@ -2,6 +2,12 @@
 # Windows / PowerShell. Meet feiten en oordeelt met vuistregels; verzint geen
 # leverancierseisen.
 # Gebruik:  powershell -ExecutionPolicy Bypass -File check.ps1 -Sessie all
+#
+# LET OP: draait dit script in een Cowork-sandbox, dan meten de geheugen- en
+# schijfregels die sandbox en NIET de laptop van de deelnemer. Gebruik voor het
+# hardware-oordeel de officiele readiness-check:
+#   https://claude.ai/api/desktop/win32/x64/cowork-readiness-check/latest/redirect
+# Let ook op: Cowork vereist de .msix-installatie van Claude Desktop, niet de .exe.
 
 param([string]$Sessie = "all")
 
