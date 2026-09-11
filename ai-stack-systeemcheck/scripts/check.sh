@@ -3,6 +3,10 @@
 # Mac en Linux. Meet feiten en oordeelt met vuistregels; verzint geen leverancierseisen.
 # Gebruik: bash check.sh [1|2|all]
 #
+# Dit script MEET alleen. Het stelt geen vragen en drukt geen checklist af: het
+# abonnement, de geplande taken, de werklaptop en de agendakoppeling horen in het
+# gesprek thuis, waar ze uitgezocht kunnen worden. Zie SKILL.md stap 4.
+#
 # LET OP: draait dit script in een Cowork-sandbox, dan meten de geheugen- en
 # schijfregels die sandbox en NIET de laptop van de deelnemer. Gebruik voor het
 # hardware-oordeel de officiele readiness-check:
@@ -100,15 +104,8 @@ echo
 if [ "$SESSIE" = "2" ] || [ "$SESSIE" = "all" ]; then
   echo "-- Extra voor sessie 2 --"
   line "Browser" "nodig om je dashboard te openen; vrijwel altijd aanwezig"
-  line "Agendakoppeling" "handmatig checken in je AI-gereedschap (geen eis, wel sterk aangeraden)"
   echo
 fi
-
-echo "-- Wat ik NIET kan zien, vraag dit zelf --"
-echo "  1. Heb je een abonnement waarin je projecten kunt aanmaken?"
-echo "  2. Kun je een taak inplannen die elke ochtend draait?"
-echo "  3. Is dit een laptop van je werkgever, en blokkeert die installaties of webtoegang?"
-echo
 
 echo "== Eindoordeel =="
 if [ "$fataal" -gt 0 ]; then
@@ -118,5 +115,5 @@ elif [ "$fails" -gt 0 ]; then
 elif [ "$risico" -gt 0 ]; then
   echo "GO MET RISICO - het werkt, maar $risico punt(en) gaan schuren. Zie hierboven."
 else
-  echo "GO - je apparaat is klaar. Beantwoord nog wel de drie vragen hierboven."
+  echo "GO - de metingen zijn in orde."
 fi

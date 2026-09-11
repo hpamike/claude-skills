@@ -3,6 +3,10 @@
 # leverancierseisen.
 # Gebruik:  powershell -ExecutionPolicy Bypass -File check.ps1 -Sessie all
 #
+# Dit script MEET alleen. Het stelt geen vragen en drukt geen checklist af: het
+# abonnement, de geplande taken, de werklaptop en de agendakoppeling horen in het
+# gesprek thuis, waar ze uitgezocht kunnen worden. Zie SKILL.md stap 4.
+#
 # LET OP: draait dit script in een Cowork-sandbox, dan meten de geheugen- en
 # schijfregels die sandbox en NIET de laptop van de deelnemer. Gebruik voor het
 # hardware-oordeel de officiele readiness-check:
@@ -100,15 +104,8 @@ Write-Host ""
 if ($Sessie -eq "2" -or $Sessie -eq "all") {
   Write-Host "-- Extra voor sessie 2 --"
   Line "Browser" "nodig om je dashboard te openen; vrijwel altijd aanwezig"
-  Line "Agendakoppeling" "handmatig checken in je AI-gereedschap (geen eis, wel sterk aangeraden)"
   Write-Host ""
 }
-
-Write-Host "-- Wat ik NIET kan zien, vraag dit zelf --"
-Write-Host "  1. Heb je een abonnement waarin je projecten kunt aanmaken?"
-Write-Host "  2. Kun je een taak inplannen die elke ochtend draait?"
-Write-Host "  3. Is dit een laptop van je werkgever, en blokkeert die installaties of webtoegang?"
-Write-Host ""
 
 Write-Host "== Eindoordeel =="
 if ($script:fataal -gt 0) {
@@ -118,5 +115,5 @@ if ($script:fataal -gt 0) {
 } elseif ($script:risico -gt 0) {
   Write-Host "GO MET RISICO - het werkt, maar $($script:risico) punt(en) gaan schuren. Zie hierboven."
 } else {
-  Write-Host "GO - je apparaat is klaar. Beantwoord nog wel de drie vragen hierboven."
+  Write-Host "GO - de metingen zijn in orde."
 }

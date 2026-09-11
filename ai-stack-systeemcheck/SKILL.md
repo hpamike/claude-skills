@@ -180,13 +180,16 @@ Volgorde van terugvallen, als de eerste niet kan de tweede:
 
 ## De scripts in `scripts/`
 
-Deze zijn **optioneel en niet je hoofdgereedschap**. Gebruik ze alleen als je op de
-machine van de deelnemer zelf draait, bijvoorbeeld via Claude Code lokaal.
+Deze zijn **optioneel en niet je hoofdgereedschap**. Ze MÉTEN alleen; ze stellen geen
+vragen en drukken geen checklist af. Het abonnement, de geplande taken, de werklaptop
+en de agendakoppeling horen in het gesprek van stap 4, waar jij ze kunt uitzoeken in
+plaats van ze aan de deelnemer terug te geven als huiswerk.
 
-**Draai je in een Cowork-sessie, dan meten de geheugen- en schijfregels de omgeving
-waarin jij draait en niet zijn laptop.** Gebruik die getallen dan niet, en zeg in je
-rapport welke van de twee situaties het was. Voor het hardware-oordeel is de
-readiness-check uit stap 1 het instrument, niet dit script.
+Gebruik ze alleen als je op de machine van de deelnemer zelf draait, bijvoorbeeld via
+Claude Code lokaal. **Draai je in een Cowork-sessie, dan meten de geheugen- en
+schijfregels de omgeving waarin jij draait en niet zijn laptop.** Gebruik die getallen
+dan niet, en zeg in je rapport welke van de twee situaties het was. Voor het
+hardware-oordeel is de readiness-check uit stap 1 het instrument.
 
 ## Onderhoud
 
